@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2291f9;
+  --color-secondary: #f8560b;
+  --color-accent: #50E3C2;
+  --color-text: #333333;
+  --color-background: #F5F5F5;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Montserrat Variable', sans-serif;
+  transition: all 300ms ease;
+  @apply bg-background text-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-primary;
+}
+
+a {
+  @apply text-secondary;
+}
