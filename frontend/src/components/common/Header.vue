@@ -216,7 +216,7 @@
                         class="flex justify-between items-center w-full pl-12 pr-2 text-text text-xl md:text-2xl hover:text-text transition-all duration-300 hover:scale-105 hover:font-bold active:scale-105 active:font-bold overflow-hidden rounded-xl"
                         :class="`${category.color}/10`">
                         <span>{{ category.name }}</span>
-                        <img src="/ARZ_logo.jpg" :alt="category.name"
+                        <img :src="`https://picsum.photos/200?random=${category.name}`" :alt="category.name"
                             class="relative top-5 w-20 md:w-24 h-20 md:h-24 rounded-t-full">
                     </a>
                 </li>
