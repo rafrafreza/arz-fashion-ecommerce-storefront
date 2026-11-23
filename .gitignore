@@ -1,2 +1,18 @@
+# Environment
 **env**
-__pycache__
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
